@@ -440,44 +440,39 @@
       <form action="register-form" class="modal-form">
 
         <div class="modal-form">
-          <label class="item">
-            <div class="modal-label">Имя</div>
-            <div class="label-wrap">
-              <input type="text" id="name" name="name" class="modal-input text">
-              <svg class="modal-icon">
-                <use href="./img/icons.svg#icon-person"></use>
-              </svg>
-            </div>
 
-          </label>
-          <label class="item">
-            <div class="modal-label">Телефон</div>
-            <div class="label-wrap">
-              <input type="tel" id="tel" name="tel" class="modal-input text">
-              <svg class="modal-icon">
-                <use href="./img/icons.svg#icon-phone"></use>
-              </svg>
-            </div>
+          <label class="item modal-label" for="name">Имя</label>
+          <div class="label-wrap">
+            <input type="text" id="name" name="name" class="modal-input text">
+            <svg class="modal-icon">
+              <use href="./img/icons.svg#icon-person"></use>
+            </svg>
+          </div>
 
-          </label>
-          <label class="item">
-            <div class="modal-label">Почта</div>
-            <div class="label-wrap">
-              <input type="email" id="email" name="email" class="modal-input text">
-              <svg class="modal-icon">
-                <use href="./img/icons.svg#icon-email"></use>
-              </svg>
-            </div>
-          </label>
 
-          <label class="item">
-            <div class="modal-label">Комментарий</div>
-            <textarea id="comment" class="modal-input area" name="comment" placeholder="Введите текст"></textarea>
-          </label>
+          <label class="item modal-label" for="tel">Телефон </label>
+          <div class="label-wrap">
+            <input type="tel" id="tel" name="tel" class="modal-input text">
+            <svg class="modal-icon">
+              <use href="./img/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+
+          <label class="item modal-label" for="email">Почта </label>
+          <div class="label-wrap">
+            <input type="email" id="email" name="email" class="modal-input text">
+            <svg class="modal-icon">
+              <use href="./img/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+
+          <label class="item modal-label" for="comment"> Комментарий </label>
+          <textarea id="comment" class="modal-input area" name="comment" placeholder="Введите текст"></textarea>
+
         </div>
 
         <label class="modal-chekbox">
-          <input type="checkbox" name="license" id="agree" name="agree" class="modal-check visually-hidden">
+          <input type="checkbox" name="license" id="license" name="agree" class="modal-check visually-hidden">
           <span class="modal-check-label pointer">Соглашаюсь с рассылкой и принимаю <a href="#"
               class="modal-check-link">Условия договора</a></span>
           <svg class="modal-icon-check pointer">

@@ -923,7 +923,6 @@ header {
 .modal-form .item {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
 }
 
 .modal-label {
@@ -946,6 +945,7 @@ header {
 
 .label-wrap {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .modal-icon {
