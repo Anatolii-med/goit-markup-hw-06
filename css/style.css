@@ -17,7 +17,7 @@
   --card-set-gap: 30px;
   --social-color: #afb1b8;
 
-  --cubic: var(--cubic);
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -667,6 +667,7 @@ header {
   background-color: var(--bgc-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 
   padding: 0 29px;
 
@@ -876,7 +877,7 @@ header {
   transform: translate(-50%, -50%) scale(1);
   transition: transform 500ms var(--cubic);
 
-  padding: 40px;
+  padding: 40px 40px 0 40px;
 }
 
 .backdrop.is-hidden .modal {
@@ -908,15 +909,15 @@ header {
   color: var(--txt-c-accent);
 }
 
-.modal .title {
+.modal-title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15px;
-  text-align: center;
+  line-height: 1.15;
   letter-spacing: 0.03em;
 
   color: var(--txt-c-grey);
-  margin-bottom: 12px;
+  padding: 0;
+  margin: 0 0 12px 0;
 }
 
 .modal-form .item {
@@ -1053,6 +1054,8 @@ header {
   background: var(--bgc-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  outline: none;
+  border: none;
 
   margin-left: auto;
   margin-right: auto;

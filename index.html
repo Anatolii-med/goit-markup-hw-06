@@ -435,13 +435,13 @@
         </svg>
       </button>
 
-      <p class="title">Оставьте свои данные, мы вам перезвоним</p>
+      <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
 
-      <form action="" class="modal-form">
+      <form action="register-form" class="modal-form">
 
         <div class="modal-form">
           <label class="item">
-            <p class="modal-label">Имя</p>
+            <div class="modal-label">Имя</div>
             <div class="label-wrap">
               <input type="text" id="name" name="name" class="modal-input text">
               <svg class="modal-icon">
@@ -451,7 +451,7 @@
 
           </label>
           <label class="item">
-            <p class="modal-label">Телефон</p>
+            <div class="modal-label">Телефон</div>
             <div class="label-wrap">
               <input type="tel" id="tel" name="tel" class="modal-input text">
               <svg class="modal-icon">
@@ -461,7 +461,7 @@
 
           </label>
           <label class="item">
-            <p class="modal-label">Почта</p>
+            <div class="modal-label">Почта</div>
             <div class="label-wrap">
               <input type="email" id="email" name="email" class="modal-input text">
               <svg class="modal-icon">
@@ -471,13 +471,13 @@
           </label>
 
           <label class="item">
-            <p class="modal-label">Комментарий</p>
+            <div class="modal-label">Комментарий</div>
             <textarea id="comment" class="modal-input area" name="comment" placeholder="Введите текст"></textarea>
           </label>
         </div>
 
         <label class="modal-chekbox">
-          <input type="checkbox" name="agree" id="agree" name="agree" class="modal-check visually-hidden">
+          <input type="checkbox" name="license" id="agree" name="agree" class="modal-check visually-hidden">
           <span class="modal-check-label pointer">Соглашаюсь с рассылкой и принимаю <a href="#"
               class="modal-check-link">Условия договора</a></span>
           <svg class="modal-icon-check pointer">
