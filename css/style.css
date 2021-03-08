@@ -794,7 +794,8 @@ header {
 .product-overlay {
   position: absolute;
   display: inline-block;
-  content: "";
+
+  /* content: ""; */
 
   font-size: 18px;
   line-height: 1.56;
@@ -808,7 +809,7 @@ header {
   top: 0;
   left: 0;
 
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms var(--cubic);
 
   z-index: 2;
@@ -895,11 +896,13 @@ header {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--bgc-main);
-  padding: 0;
   outline: none;
   fill: currentColor;
+
+  padding: 0;
 
   transition: color 250ms var(--cubic);
 }
@@ -952,11 +955,12 @@ header {
   position: absolute;
   width: 18px;
   height: 18px;
+
   fill: currentColor;
   top: 50%;
-  transform: translateY(-50%);
   left: 12px;
 
+  transform: translateY(-50%);
   transition: color 250ms var(--cubic);
 }
 
@@ -1004,7 +1008,6 @@ header {
   letter-spacing: 0.03em;
 
   color: var(--txt-c-accent);
-
   text-decoration-line: underline;
 }
 
